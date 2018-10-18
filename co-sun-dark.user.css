@@ -1,0 +1,115 @@
+/* ==UserStyle==
+@name        The Colorado Sun dark theme
+@namespace   https://github.com/obscuredetour/
+@version     1.1.0
+@license     CC-BY-4.0
+@author      obscure detour (https://www.jeffreysummers.me)
+@homepageURL https://github.com/obscuredetour/dark-co-sun
+@updateURL   https://github.com/obscuredetour/co-sun-dark.user.css
+==/UserStyle== */
+
+@-moz-document domain("coloradosun.com")
+{
+
+    html,
+    .large-feature__content___jQPqQ,
+    .article-header__wrapper___1UKb2,
+    .civil-footer__wrapper___3xZwz,
+    .article-header__date___3TskR::after {
+        background-color: #202326;
+        color: #f5f4f5;
+    }
+
+    .has-very-light-gray-background-color {
+        background-color: #42484e;
+    }
+
+    .content-item__eyebrow___25bqF a,
+    .river__title___krYaD a,
+    .rich-text ol,
+    .rich-text p,
+    .rich-text ul,
+    .rich-text h1, .rich-text h2, .rich-text h3, .rich-text h4, .rich-text h5, .rich-text h6,
+    .article-footer__social-shares .sd-title,
+    .article-bylines__expandable___1gcWr .article-bylines__bio-name___30oIS,
+    .article-bylines__static___1jfy3 .article-bylines__bio-name___30oIS {
+        color: #f5f4f5;
+    }
+
+    iframe[src*="//datawrapper"] {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .river__title___krYaD {
+        color: #f5f4f5;
+        line-height: 1.2;
+    }
+
+    .page-header__title,
+    .article-header__title,
+    .large-feature__title___1lPYS a,
+    .article-header__wrapper___1UKb2 {
+        color: rgba(255, 255, 255, .85);
+    }
+
+    .credibility-indicators__heading___1JRFb,
+    .credibility-indicators__heading___1JRFb,
+    button [data-_extension-text-contrast="fg"],
+    [data-_extension-text-contrast="default"]:root {
+        color: rgba(255, 255, 255, .85) !important;
+    }
+
+    .featured-articles__list-headline___scXlr,
+    .credibility-indicators__intro___1IYKw {
+        border-bottom-color: #f5f4f5;
+    }
+    .newsroom-header__runs-on-civil svg,
+    .newsroom-header__menu-trigger path,
+    svg:not(:root) {
+        fill: #f5f4f5;
+    }
+
+    .card__dek___2LnA5 {
+        color: #aeaeae;
+    }
+    
+    .content-item__date___2Adqk {
+        color: #c9c9c9;
+    }
+
+    .card__avatar___1YAw7,
+    .article-bylines__expandable___1gcWr .article-bylines__bio-content___18yWF,
+    .article-bylines__static___1jfy3 .article-bylines__bio-content___18yWF,
+    .river__byline___1YWD4,
+    .rich-text .wp-block-image figcaption {
+        color: #bcb8b6;
+    }
+
+    .rich-text p a {
+        color: #30e8bd;
+        border-bottom: 2px solid #2b56ff;
+    }
+
+    .article-bylines__twitter-handle___26sL7,
+    .article-bylines__bio-more___3XaZl {
+        color: #30e8bd;
+    }
+    .article-bylines__twitter-handle___26sL7,
+    .article-bylines__bio-more___3XaZl,
+    .credibility-indicators__learn-more___3BCYI {
+        color: #fcd232;
+    }
+
+    .button-secondary-light {
+        color: #fcd232;
+        border-color: #fcd232;
+    }
+    .button-secondary-light:hover,
+    .button-secondary-light:focus {
+        color: #232629;
+        background-color: #fcd232;
+    }
+}
