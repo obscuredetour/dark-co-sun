@@ -13,7 +13,7 @@ title: The Colorado Sun dark theme
 - Article data embed themed best as possible, might revisit
 
 ---
-This is a blog post from [https://blog.jeffreysummers.me/co-sun-dark](https://blog.jeffreysummers.me/co-sun-dark).
+This is a blog post from [https://blog.jeffreysummers.me/post/co-sun-dark/](https://blog.jeffreysummers.me/post/co-sun-dark/).
 
 The Colorado Sun is great and brilliantly designed, but after too much reading the white background can be glaring.
 
