@@ -1,15 +1,14 @@
 /* ==UserStyle==
 @name        The Colorado Sun dark theme
 @namespace   https://github.com/obscuredetour/
-@version     1.1.0
+@version     1.2.0
 @license     CC-BY-4.0
 @author      obscure detour (https://www.jeffreysummers.me)
 @homepageURL https://github.com/obscuredetour/dark-co-sun
 @updateURL   https://github.com/obscuredetour/co-sun-dark.user.css
 ==/UserStyle== */
 
-@-moz-document domain("coloradosun.com")
-{
+@-moz-document domain("coloradosun.com") {
 
     html,
     .large-feature__content___jQPqQ,
@@ -20,7 +19,9 @@
         color: #f5f4f5;
     }
 
-    .has-very-light-gray-background-color {
+    .has-very-light-gray-background-color,
+    .sub-menu a:focus,
+    .sub-menu a:hover {
         background-color: #42484e;
     }
 
@@ -29,11 +30,21 @@
     .rich-text ol,
     .rich-text p,
     .rich-text ul,
-    .rich-text h1, .rich-text h2, .rich-text h3, .rich-text h4, .rich-text h5, .rich-text h6,
+    .rich-text h1,
+    .rich-text h2,
+    .rich-text h3,
+    .rich-text h4,
+    .rich-text h5,
+    .rich-text h6,
     .article-footer__social-shares .sd-title,
     .article-bylines__expandable___1gcWr .article-bylines__bio-name___30oIS,
     .article-bylines__static___1jfy3 .article-bylines__bio-name___30oIS {
         color: #f5f4f5;
+    }
+
+    .content-item__eyebrow___25bqF span,
+    .newsroom-header__subscribe-wrapper .subscribe-button__button {
+        color: #303438;
     }
 
     iframe[src*="//datawrapper"] {
@@ -66,16 +77,24 @@
     .credibility-indicators__intro___1IYKw {
         border-bottom-color: #f5f4f5;
     }
+
     .newsroom-header__runs-on-civil svg,
     .newsroom-header__menu-trigger path,
-    svg:not(:root) {
+    svg:not(:root),
+    .credibility-indicators__icon svg path,
+    .credibility-indicators__icon svg g,
+    .credibility-indicators__icon svg g path {
         fill: #f5f4f5;
+    }
+
+    .credibility-indicators__icon svg g {
+        stroke: #f5f4f5;
     }
 
     .card__dek___2LnA5 {
         color: #aeaeae;
     }
-    
+
     .content-item__date___2Adqk {
         color: #c9c9c9;
     }
@@ -97,9 +116,11 @@
     .article-bylines__bio-more___3XaZl {
         color: #30e8bd;
     }
+
     .article-bylines__twitter-handle___26sL7,
     .article-bylines__bio-more___3XaZl,
-    .credibility-indicators__learn-more___3BCYI {
+    .credibility-indicators__learn-more___3BCYI,
+    .article-bylines__bio-content a {
         color: #fcd232;
     }
 
@@ -107,9 +128,18 @@
         color: #fcd232;
         border-color: #fcd232;
     }
+
     .button-secondary-light:hover,
     .button-secondary-light:focus {
         color: #232629;
         background-color: #fcd232;
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .newsroom-header__nav___2hRfj a:focus,
+        .newsroom-header__nav___2hRfj a:hover {
+            background-color: #42484e;
+        }
     }
 }

@@ -3,6 +3,14 @@ title: The Colorado Sun dark theme
 ---
 ## Changelog
 
+### **1.2**
+
+- Improved contrast for 'opinion' tagged articles
+- Changed 'Become A Member' button to dark text
+- Enhanced navigation menu hover and focus contast
+- Fixed byline author email links to yellow as blue is too hard to read with dark background
+- Fixed credibility indicators' color to light on dark
+
 ### **1.1**
 
 - Fixed text and link colors on yellow background
@@ -13,13 +21,13 @@ title: The Colorado Sun dark theme
 - Article data embed themed best as possible, might revisit
 
 ---
-This is a blog post from [https://blog.jeffreysummers.me/co-sun-dark](https://blog.jeffreysummers.me/co-sun-dark).
+This is a blog post from [https://blog.jeffreysummers.me/post/co-sun-dark](https://blog.jeffreysummers.me/post/co-sun-dark).
 
 The Colorado Sun is great and brilliantly designed, but after too much reading the white background can be glaring.
 
 # Dark theme for coloradosun.com
 
-I really like [The Colorado Sun](https://coloradosun.com/), but after a while the white background is too much.  Their website design is fantastic, so I don't want to change too much.
+I really like [The Colorado Sun](https://coloradosun.com/), but after a while the white background is too much. Their website design is fantastic, so I don't want to change too much.
 
 The goal is to keep the same minimalistic theme with a touch of color, just darker and easier on the eyes. I am sharing it and the process of creation in hopes that it will help someone else.
 
