@@ -3,6 +3,12 @@ title: The Colorado Sun dark theme
 ---
 ## Changelog
 
+### **1.3**
+
+- Fixed text & link colors within article emphasis areas with yellow background
+- Altered article cards bottom borders to better reflect CO Sun theme
+- Themed tag and category buttons
+
 ### **1.2**
 
 - Improved contrast for 'opinion' tagged articles
