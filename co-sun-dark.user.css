@@ -19,10 +19,9 @@
         color: #f5f4f5;
     }
 
-    .has-very-light-gray-background-color,
-    .sub-menu a:focus,
-    .sub-menu a:hover {
-        background-color: #42484e;
+    .has-very-light-gray-background-color, .sub-menu a:focus, .sub-menu a:hover,
+    .body-content__sidebar___3Bplp div[style*="background-color:#fcd232"] {
+        background-color: #42484e !important;
     }
 
     .content-item__eyebrow___25bqF a,
@@ -150,7 +149,8 @@
     .article-bylines__twitter-handle___26sL7,
     .article-bylines__bio-more___3XaZl,
     .credibility-indicators__learn-more___3BCYI,
-    .article-bylines__bio-content a {
+    .article-bylines__bio-content a,
+    .sharing-anchor.sd-button.share-more {
         color: #fcd232;
     }
 

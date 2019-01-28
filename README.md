@@ -1,31 +1,28 @@
----
-title: The Colorado Sun dark theme
----
-## Changelog
+# The Colorado Sun dark theme
+This is a dark theme for the [coloradosun.com](https://coloradosun.com) website. This custom userstyle follows [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) guidelines.
 
-### **1.3**
+## Table of Contents
 
-- Fixed text & link colors within article emphasis areas with yellow background
-- Altered article cards bottom borders to better reflect CO Sun theme
-- Themed tag and category buttons
+1. [How to use](#how-to-use)
+2. [Preview](#preview)
 
-### **1.2**
+## How to use
 
-- Improved contrast for 'opinion' tagged articles
-- Changed 'Become A Member' button to dark text
-- Enhanced navigation menu hover and focus contast
-- Fixed byline author email links to yellow as blue is too hard to read with dark background
-- Fixed credibility indicators' color to light on dark
+A userstyle extension for your browser is required, here are a few to choose from:
 
-### **1.1**
+- [Stylus](https://github.com/openstyles/stylus) for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+- xStyle for [Firefox](https://addons.mozilla.org/firefox/addon/xstyle/) or [Chrome](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj).
 
-- Fixed text and link colors on yellow background
+Install the dark theme with the links below. They support automatic updates.
 
-### **1.0 - initial release**
+- [Install coloradosun.com Dark theme](https://github.com/obscuredetour/dark-co-sun/raw/co-sun-dark.user.css)
 
-- Themed home page and articles
-- Article data embed themed best as possible, might revisit
+## Preview
+![Home Page view](https://github.com/obscuredetour/dark-co-sun/raw/master/screenshot-homepage.jpg)
+![Article view](https://github.com/obscuredetour/dark-co-sun/raw/master/screenshot-article.jpg)
 
+<br>
+<br>
 ---
 This is a blog post from [https://blog.jeffreysummers.me/post/co-sun-dark](https://blog.jeffreysummers.me/post/co-sun-dark).
 
@@ -90,20 +87,5 @@ As more content is produced this might need to be expanded, fixed and/or tweaked
 
 Below you'll find some screenshots as well as the GitHub repository where this theme is stored.
 
-**How to use**
 
-First, you will need the [CO Sun dark CSS file](https://github.com/obscuredetour/dark-co-sun/blob/master/co-sun-dark.css). You can copy/paste it into  the browser extension [Stylus](https://add0n.com/stylus.html) or click the **Raw** button to download. For reference here is the [Colorado Sun Dark theme on GitHub](https://github.com/obscuredetour/dark-co-sun).
 
-You should be using the browser add-on [Stylus](https://add0n.com/stylus.html). Do **not** use Stylish as it has security issues. For reference, [Stylus on GitHub](https://github.com/openstyles/stylus).
-
-[Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-
-[Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
-
- Unfortunately, [Userstyles.org](https://userstyles.org/) will not let me log in no matter how many times I reset my password. What gives? If I decide to create a new account and upload it I will update this post.
-
-### Screenshots
-
-![Home Page view](https://github.com/obscuredetour/dark-co-sun/raw/master/screenshot-homepage.jpg)
-
-![Article view](https://github.com/obscuredetour/dark-co-sun/raw/master/screenshot-article.jpg)
