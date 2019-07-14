@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.2] - 2019-07-14
+### Changed
+- Nav search styled
+- Yellow emphasis text box fix
+
 ## [1.3.1] - 2019-01-27
 ### Changed
 - *More* social links.
