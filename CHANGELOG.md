@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.3] - 2019-09-25
+### Add
+- Nav compact style
+- Heading links within articles
+
+### Changed
+- Byline hover fix
+- Image caption color contrast improved
+- Article card border is darker
+
 ## [1.3.2] - 2019-07-14
 ### Changed
 - Nav search styled

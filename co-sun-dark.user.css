@@ -16,6 +16,7 @@
     --dusk: #444;
     --dusky-fog: #42484e;
     --charcoal: #555;
+    --fog: #7c7c7e;
     --soot: #aeaeae;
     --rimrock: #bcb8b6;
     --smoke: #c4c2c0;
@@ -106,10 +107,16 @@
   .rich-text .alignfull img {
     box-shadow: none;
   }
+  
+  /* Article cards */
+  .card__wrapper___35V-0,
+  .large-feature__content___jQPqQ {
+    border-color: var(--charcoal);
+  }
 
   .card__wrapper___35V-0,
   .large-feature__content___jQPqQ {
-    border-bottom-color:  var(--flower-blue);
+    border-bottom-color: var(--flower-blue);
   }
 
   iframe[src*="//datawrapper"] {
@@ -169,6 +176,10 @@
     color: var(--soot);
   }
 
+  .rich-text span[style*="color:gray;"] {
+    color: var(--soot) !important;
+  }
+
   .content-item__date___2Adqk {
     color: var(--stone);
   }
@@ -181,8 +192,19 @@
   .article-bylines__expandable___1gcWr .article-bylines__bio-content___18yWF,
   .article-bylines__static___1jfy3 .article-bylines__bio-content___18yWF,
   .river__byline___1YWD4,
-  .rich-text .wp-block-image figcaption {
+  .rich-text .wp-block-image figcaption,
+  .content-item__eyebrow___25bqF a {
     color: var(--rimrock);
+  }
+
+  .card__avatar___1YAw7:focus,
+  .card__avatar___1YAw7:hover {
+    color: var(--stone);
+  }
+  
+  .content-item__eyebrow___25bqF a:focus,
+  .content-item__eyebrow___25bqF a:hover {
+    color: var(--cloud-front);
   }
 
   .rich-text p a {
@@ -204,7 +226,12 @@
   .article-bylines__bio-more___3XaZl,
   .credibility-indicators__learn-more___3BCYI,
   .article-bylines__bio-content a,
-  .sharing-anchor.sd-button.share-more {
+  .sharing-anchor.sd-button.share-more,
+  .rich-text h2 a,
+  .rich-text h3 a,
+  .rich-text h4 a,
+  .rich-text h5 a,
+  .rich-text h6 a {
     color: var(--sun-rays);
   }
 
@@ -225,5 +252,33 @@
     .newsroom-header__nav___2hRfj a:hover {
       background-color: var(--smoke);
     }
+  }
+
+  .newsroom-header__inner___2V-uJ {
+    max-width: 94rem;
+  }
+  .newsroom-header__inner___2V-uJ .cta-button__button___2D4Pn {
+    max-width: 10.5rem;
+    color: var(--night-sky);
+    font-weight: bold;
+    letter-spacing: 0.4px;
+  }
+
+  .newsroom-header__nav li a {
+    font-size: 14px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+  }
+  newsroom-header__nav li#menu-item-50732 a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 2.5rem;
+    background-color: var(--dusk);
   }
 }
